@@ -30,7 +30,7 @@ module.exports = (grunt) ->
           data:
             debug:false
         files:[
-          "scroll/index.html":"scroll/index.jade",
+          "./index.html":"./index.jade",
           "scroll/demo.html":"scroll/demo.jade"
         ]
 
