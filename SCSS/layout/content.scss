@@ -1,0 +1,14 @@
+/*
+  Layout content
+*/
+#content, content {
+  //width: 200px;
+  float: right;
+  width: 85%;
+  margin-top: 5px;
+  margin-left: 100% - 200;
+  display: block;
+  min-height: 669px;
+  padding: 5px;
+  background-color: rgb(238, 243, 250);
+}

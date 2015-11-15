@@ -1,0 +1,15 @@
+.menu > li {
+  > a {
+    color: #080808;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+  > ul.menu > li > a {
+    color: green;
+    &:hover {
+      font-weight: bold;
+      color: #00b3ee;
+    }
+  }
+}
