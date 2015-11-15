@@ -1,0 +1,17 @@
+{
+  "name": "scrollspy",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "wuxinxin <wuxinxinjh@163.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/WuXinxinJH/Test2",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ]
+}
