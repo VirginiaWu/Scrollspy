@@ -10,8 +10,7 @@
   "moduleType": [],
   "private": true,
   "ignore": [
-    "**/.*",
-    "test",
-    "tests"
+    ".sass-cache",
+    "node_modules"
   ]
 }
