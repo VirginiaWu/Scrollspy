@@ -28,8 +28,10 @@ ul, ol {
     .head .statusBar .bar {
       padding: 0px 5px;
       border-right: 1px solid black; }
-      .head .statusBar .bar .dropdown-icon:hover {
-        background-color: black; }
+      .head .statusBar .bar .dropdown-icon {
+        width: 50px; }
+        .head .statusBar .bar .dropdown-icon:hover {
+          background-color: black; }
     .head .statusBar .userstate {
       padding: 0px 5px;
       float: right; }
