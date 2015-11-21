@@ -1,0 +1,23 @@
+.head {
+  padding: 15px 0px;
+  .statusBar {
+    float: right;
+    margin-right: 5px;
+    padding: 0px 7px;
+    .bar {
+      padding: 0px 5px;
+      border-right: 1px solid black;
+    }
+    .userstate {
+      padding: 0px 5px;
+      float: right;
+    }
+    .fa {
+      padding: 0px 5px 0px 15px;
+    }
+    .dropdown-icon {
+      padding-right: 40px;
+    }
+  }
+}
+
