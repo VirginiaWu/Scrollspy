@@ -1,3 +1,6 @@
-.sass-cache
-node_modules
+.idea/
+.sass-cache/
+node_modules/
 scroll/css/*.css.map
+index.html
+index.jade
