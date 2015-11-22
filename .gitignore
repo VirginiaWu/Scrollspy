@@ -3,7 +3,7 @@
 node_modules
 scroll/css/*.map
 dist/css/*.map
-scroll/**/*.jade
-scroll/**/*.html
+scroll/*.jade
+scroll/*.html
 *.jade
 *.html

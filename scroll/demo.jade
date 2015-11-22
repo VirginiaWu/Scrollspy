@@ -3,7 +3,7 @@ html
    head
       meta(charset='utf-8')
       title EXERCISESS
-      link(rel='stylesheet', href='css/main.css', media='screen', title='no title', charset='utf-8')
+      link(rel='stylesheet', href='../dist/css/main.css', media='screen', title='no title', charset='utf-8')
    body
       header
          div.head
@@ -28,8 +28,9 @@ html
                      span 退出
 
       sidebar#sidebar
-         div.panel
-            p 你好,super
+         .panel
+            .user-info
+               p 你好,super
          ul.menu
             li.is-active
                a(href='/')

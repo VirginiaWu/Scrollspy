@@ -11,7 +11,10 @@
   background-color: #e9eff8;
   box-shadow: inset -3px 0px 8px -4px rgba(0, 0, 0, 0.07);
   > .panel {
-    padding: 5px;
+    .user-info {
+      padding: 15px;
+      font-weight: 600;
+    }
   }
   > .menu {
     border-top: 1px solid #e0e6ed;
