@@ -5,5 +5,5 @@ scroll/css/*.map
 dist/css/*.map
 scroll/*.jade
 scroll/*.html
-*.jade
-*.html
+index.jade
+index.html

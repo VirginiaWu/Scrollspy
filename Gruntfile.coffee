@@ -33,7 +33,9 @@ module.exports = (grunt) ->
           "./index.html":"./index.jade",
           "scroll/demo.html":"scroll/demo.jade"
         ]
+    shell:
+      moveFont:
+        command: 'cp -r SCSS/lib/ dist/'
 
 
-
-  grunt.registerTask 'default',["jade:development","sass:development"]
+  grunt.registerTask 'default',["jade:development","sass:development","shell:moveFont"]
