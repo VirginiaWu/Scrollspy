@@ -3,17 +3,23 @@
 */
 #sidebar, sidebar {
   float: left;
-  font-size: 14px;
-  width: 200px;
+  display: block;
+  width: 220px;
   min-height: 669px;
-  margin-top: 5px;
-  border-right: 1px solid red;
-  background-color: #122b40;
+  margin-right: 1px;
+  color: #222222;
+  background-color: #e9eff8;
+  box-shadow: inset -3px 0px 8px -4px rgba(0, 0, 0, 0.07);
   > .panel {
     padding: 5px;
   }
   > .menu {
-    border-top: 1px solid blue;
+    border-top: 1px solid #e0e6ed;
   }
 }
 
+@media screen and (max-width: 992px) {
+  sidebar, #sidebar {
+    display: none;
+  }
+}

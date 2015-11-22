@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  display: table;
+  padding: 20px 0px;
+  color: #777777;
+  position: absolute;
+  bottom: 0px;
+}
+.left {
+  display: table-cell;
+  padding-left: 15px;
+
+}
+.right {
+  text-align: right;
+  padding-right: 15px;
+  display: table-cell;
+  a {
+    color: #0c85e2;
+    cursor: pointer;
+    &:hover, &:focus {
+      color: #2a6496;
+    }
+  }
+}
+.line {
+  margin: 0px 8px;
+}

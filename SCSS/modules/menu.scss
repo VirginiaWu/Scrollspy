@@ -1,15 +1,53 @@
-.menu > li {
-  > a {
-    color: #080808;
-    &:hover {
-      font-weight: bold;
+.menu {
+  > li {
+    margin-right: 1px;
+    > a {
+      display: block;
+      padding: 12px 5px 12px 15px;
+      color: #555555;
+      border-left: 4px solid #e9eff8;
+      &:hover {
+        background: #dde3eb;
+        border-left: 4px solid #616e75;
+        padding: 12px 5px 12px 15px;
+        color: #222;
+      }
     }
   }
-  > ul.menu > li > a {
-    color: green;
-    &:hover {
+  .is-active {
+    > a {
       font-weight: bold;
-      color: #00b3ee;
+      padding: 12px 5px 12px 15px;
+      color: #0c85e2;
+      border-left: 4px solid #0c85e2;
+      &:hover {
+        color: #0c85e2;;
+        padding: 12px 5px 12px 15px;
+        background: #dde3eb;
+        border-left: 4px solid #0c85e2;
+      }
     }
+  }
+  .menu {
+    display: block;
+    > li {
+      > a {
+        padding: 12px 5px 12px 35px;
+        &:hover {
+          padding: 12px 5px 12px 35px;
+        }
+      }
+    }
+    > .is-active {
+      > a {
+        padding: 12px 5px 12px 35px;
+        &:hover {
+          padding: 12px 5px 12px 35px;
+        }
+      }
+    }
+  }
+  .fa {
+    width: 20px;
   }
 }
