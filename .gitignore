@@ -1,3 +1,9 @@
 .idea
 .sass-cache
 node_modules
+scroll/css/*.map
+dist/css/*.map
+scroll/**/*.jade
+scroll/**/*.html
+*.jade
+*.html

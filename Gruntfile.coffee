@@ -19,7 +19,7 @@ module.exports = (grunt) ->
             expand:true
             cwd: "SCSS/"
             src: "main.scss"
-            dest: "scroll/css"
+            dest: "dist/css"
             ext: ".css"
           }
         ]
